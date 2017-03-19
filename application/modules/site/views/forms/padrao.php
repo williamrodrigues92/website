@@ -22,7 +22,7 @@
 <body>
 	<div id="fundo">
 		<div id="cabecalho">
-			<h1><?php echo $this->config->item('titulo_projeto') ?></h1>
+			<h1><?php echo $this->config->item('projeto') ?></h1>
 			<h2 style="color:#000;"><?php echo $campos['titulo'] ?></h2>
 			<p style="color:#000;"><strong>Data:</strong> <?php echo date('d/m/Y') ?> e <strong>Hora:</strong> <?php echo date('H:i:s') ?> do cadastro.</p>
 

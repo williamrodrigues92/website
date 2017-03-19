@@ -39,7 +39,7 @@
             <div class="col-md-5 inputGroupContainer">
               <div class="input-group">
                 <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-                <input name="telefone" placeholder="(__)____-_____" class="form-control" type="text">
+                <input name="telefone" class="form-control phoneMask" type="text">
               </div>
             </div>
           </div>
@@ -49,12 +49,12 @@
               <div class="input-group">
                 <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
                 <select name="assunto" class="form-control">
-                  <option>Orçamento</option>
-                  <option>Financeiro</option>
-                  <option>Parcerias</option>
-                  <option>Dúvidas</option>
-                  <option>Sugestões</option>
-                  <option>Outros</option>
+                  <option value="Orçamento">Orçamento</option>
+                  <option value="Financeiro">Financeiro</option>
+                  <option value="Parcerias">Parcerias</option>
+                  <option value="Dúvidas">Dúvidas</option>
+                  <option value="Sugestões">Sugestões</option>
+                  <option value="Outros">Outros</option>
                 </select>
               </div>
             </div>

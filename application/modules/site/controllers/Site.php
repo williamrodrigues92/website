@@ -2,8 +2,8 @@
 
 class Site extends MY_Controller {
 
-    protected $config_mail = array(
-    'smtp_host' => 'ssl://fitosistemas.com',
+  protected $config_mail = array(
+    'smtp_host' => 'ssl://br540.hostgator.com.br',
     'smtp_user' => 'postmaster@fitosistemas.com.br',
     'smtp_pass' => 'd3v3l0p35',
     'smtp_port' => 465,
@@ -47,7 +47,6 @@ class Site extends MY_Controller {
   public function envia_form () {
 
     $campos = $this->input->post();
-
     $this->data['campos'] = $campos;
 
     ob_start();
@@ -63,8 +62,6 @@ class Site extends MY_Controller {
     $this->email->message($html);
 
     if ( $this->email->send() ) {
-
-      $this->session->set_userdata( array('enviado' => true) );
       $this->data['enviado'] = TRUE;
     }
   }
