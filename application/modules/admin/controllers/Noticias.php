@@ -2,7 +2,7 @@
 
 if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Noticias extends ADMIN_Controller {
+class Noticias extends MY_Controller {
 
   public function index () {
 

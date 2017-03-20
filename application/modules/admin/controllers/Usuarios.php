@@ -2,7 +2,7 @@
 
 if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Usuarios extends ADMIN_Controller {
+class Usuarios extends MY_Controller {
 
 	public function index () {
 		$this->inserirSEO( 'Usuários', '', '', 'admin/usuarios' );

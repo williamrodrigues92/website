@@ -2,7 +2,7 @@
 
 if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Home extends ADMIN_Controller {
+class Home extends MY_Controller {
 
 	public function index () {
 		$this->inserirSEO( 'Home', '', '', 'admin/home' );

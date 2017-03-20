@@ -2,14 +2,14 @@
 
 if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Login extends ADMIN_Controller {
+class Login extends MY_Controller {
 
 	public function __construct () {
-		parent::__construct('login');
+		parent::__construct();
 	}
 
 	public function index () {
-		$this->inserirSEO( 'Login', '', '', 'admin/login' );
+		$this->inserirSEO('Login', '', '', 'admin/login');
 		$this->load->view('template/header', $this->data);
 		$this->load->view('login');
 	}

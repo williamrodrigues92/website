@@ -4,14 +4,9 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class MY_Controller extends CI_Controller {
 
-	public $data = array();
-
-	public $dataTableJquery = array('datatables' => array('javascript' => array('jquery.dataTables.min.js')));
-	public $tinyMCEJquery   = array('tinymce' => array('javascript' => array('jquery.tinymce.min.js')));
-	public $dataTable       = array('datatables-plugins' => array('javascript' => array('dataTables.bootstrap.min.js')));
-	public $tinyMCE         = array('tinymce' => array('javascript' => array('tinymce.min.js')));
-	public $morris          = array('morrisjs' => array('javascript' => array('morris.js'), 'style' => array('morris.css')));
-	public $raphael         = array('raphael' => array('javascript' => array('raphael.min.js')));
+	public $data    = array();
+	public $morris  = array('morrisjs' => array('javascript' => array('morris.js'), 'style' => array('morris.css')));
+	public $raphael = array('raphael' => array('javascript' => array('raphael.min.js')));
 
 	public function __construct () {
 
@@ -22,6 +17,7 @@ class MY_Controller extends CI_Controller {
 		$this->load->model('fotos_model');
 		$this->load->model('galerias_model');
 		$this->load->model('paginas_model');
+		$this->load->model('portfolio_model');
 		$this->load->model('usuarios_model');
 
 		$this->load->helper('form');
@@ -103,14 +99,19 @@ class MY_Controller extends CI_Controller {
 	}
 
 	public function addDataTable(){
-    $this->addRecurso($this->dataTableJquery, 'libraries_admin');
-    $this->addRecurso($this->dataTable, 'libraries_admin');
+		$dataTableJquery = array('datatables' => array('jquery.dataTables.min.js'));
+		$dataTable       = array('datatables-plugins' => array('dataTables.bootstrap.min.js'));
+
+    $this->addRecurso($dataTableJquery, 'lib_js_admin');
+    $this->addRecurso($dataTable, 'lib_js_admin');
     $this->addRecurso('dataTable.js', 'js');
 	}
 
 	public function addTinyMCE(){
-    $this->addRecurso($this->tinyMCEJquery, 'libraries_admin');
-    $this->addRecurso($this->tinyMCE, 'libraries_admin');
+		$tinyMCEJquery = array('tinymce' => array('jquery.tinymce.min.js'));
+		$tinyMCE       = array('tinymce' => array('tinymce.min.js'));
+    $this->addRecurso($tinyMCEJquery, 'lib_js_admin');
+    $this->addRecurso($tinyMCE, 'lib_js_admin');
     $this->addRecurso('tinymce.js', 'js');
 	}
 

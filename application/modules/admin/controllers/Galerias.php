@@ -2,7 +2,7 @@
 
 if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Galerias extends ADMIN_Controller {
+class Galerias extends MY_Controller {
 
 	public function index () {
 

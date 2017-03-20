@@ -2,7 +2,7 @@
 
 if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Clientes extends ADMIN_Controller {
+class Clientes extends MY_Controller {
 
   public function index () {
     $this->inserirSEO( 'Clientes', '', '', 'admin/clientes' );
