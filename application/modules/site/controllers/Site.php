@@ -16,6 +16,10 @@ class Site extends MY_Controller {
 
   public function index() {
     $this->inserirSEO('Home', '', '', 'home');
+
+    $this->portfolio_model->limit(3);
+    $this->data['projetos'] = $this->portfolio_model->get_all();
+
     $this->exibirPaginaSite('pages/home');
   }
 
@@ -26,7 +30,18 @@ class Site extends MY_Controller {
 
   public function portfolio() {
     $this->inserirSEO('Portfólio', '', '', 'portfolio');
+
+    $this->data['projetos'] = $this->portfolio_model->get_all();
+
     $this->exibirPaginaSite('pages/portfolio');
+  }
+
+  public function portfolio_exibir($id) {
+    $this->inserirSEO('Portfólio', '', '', 'portfolio');
+
+    $this->data['projeto'] = $this->portfolio_model->get($id);
+
+    $this->exibirPaginaSite('pages/portfolio_exibir');
   }
 
   public function solucoes() {

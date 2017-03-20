@@ -247,6 +247,13 @@
         </li>
 
         <li>
+          <a href="javascript:;" data-toggle="collapse" data-target="#portfolio"><i class="fa fa-list fa-fw"></i> Portfolio<span class="fa arrow"></span></a>
+          <ul id="portfolio" class="nav nav-second-level collapse">
+            <li><a href="<?php echo base_url(); ?>admin/portfolio/form">Cadastro</a></li>
+            <li><a href="<?php echo base_url(); ?>admin/portfolio">Listagem</a></li>
+          </ul>
+        </li>
+        <li>
           <a href="javascript:;" data-toggle="collapse" data-target="#noticias"><i class="fa fa-list fa-fw"></i> Notícias<span class="fa arrow"></span></a>
           <ul id="noticias" class="nav nav-second-level collapse">
             <li><a href="<?php echo base_url(); ?>admin/noticias/form">Cadastro</a></li>

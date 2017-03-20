@@ -6,42 +6,22 @@
     </div>
 
     <div class="row center">
-      <div class="col-xs-12 col-sm-4 col-md-4">
-        <div class="recent-work-wrap">
-          <img class="img-responsive" src="<?php echo base_url() ?>assets/images/portfolio/port1.jpg" alt="">
-          <div class="overlay">
-            <div class="recent-work-inner">
-              <h3><a href="#">Business theme</a> </h3>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-              <a class="preview" href="<?php echo base_url() ?>assets/images/portfolio/port1.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+
+      <?php foreach ($projetos as $projeto) { ?>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <div class="recent-work-wrap">
+            <img class="img-responsive" src="<?php echo base_url() ?>uploads/portfolio/<?php echo $projeto->imagem ?>" alt="">
+            <div class="overlay">
+              <div class="recent-work-inner">
+                <h3><a href="#"><?php echo $projeto->titulo ?></a> </h3>
+                <?php echo $projeto->chamada ?>
+                <a class="preview" target="_blank" href="<?php echo base_url() ?>/portfolio-exibir/<?php echo $projeto->id ?>" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver projeto</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-4">
-        <div class="recent-work-wrap">
-          <img class="img-responsive" src="<?php echo base_url() ?>assets/images/portfolio/port2.jpg" alt="">
-          <div class="overlay">
-            <div class="recent-work-inner">
-              <h3><a href="#">Business theme</a></h3>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-              <a class="preview" href="<?php echo base_url() ?>assets/images/portfolio/port2.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-4">
-        <div class="recent-work-wrap">
-          <img class="img-responsive" src="<?php echo base_url() ?>assets/images/portfolio/port3.jpg" alt="">
-          <div class="overlay">
-            <div class="recent-work-inner">
-              <h3><a href="#">Business theme </a></h3>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-              <a class="preview" href="<?php echo base_url() ?>assets/images/portfolio/port3.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <?php } ?>
+
     </div>
 
     <div class="row">
