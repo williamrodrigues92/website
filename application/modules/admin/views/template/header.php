@@ -10,7 +10,7 @@
   <link rel="canonical" href="<?php echo $canonical ?>" />
   <link rel="shortcut icon" href="<?php echo base_url() ?>favicon.ico" >
 
-  <title><?php echo $title . ' - ' . $this->config->item('titulo_projeto') ?></title>
+  <title><?php echo $title . ' - ' . $this->config->item('projeto') ?></title>
 
   <?php
 
