@@ -1,3 +1,7 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 
 <section id="solutions">
   <div class="container">
@@ -14,8 +18,15 @@
             <img src="<?php echo base_url() ?>assets/images/services/icon-web.png">
             <h3 class="media-heading">Criação de Sites e Sistemas</h3>
             <p>
-              Atuamos no desenvolvimento, manutenção, atualização e integração de websites e sistemas web.
-              Desenvolvemos websites profissionais responsivos, compatíveis com tablets e smartphones.
+              Projetos de sites personalizados para profissionais e empresas de todos os
+              segmentos comerciais. Desenvolvemos ou revitalizamos qualquer sistema web com
+              elevado grau de personalização em curtíssimos prazos.
+              Websites responsivos, compatíveis com tablets e smartphones.
+              Sites institucionais e hotsites
+              lojas virtuais
+              sistemas de gerenciamento fáceis de usar, versáteis e seguros.
+              Manutenção e integração de sites e sistemas
+              Estudo de viabilidade e registro de domínios
             </p>
             <a class="preview" target="_blank" href="<?php echo base_url() ?>"><button class="btn btn-primary btn-lg">Saiba mais</button></a>
           </div>
@@ -27,8 +38,11 @@
             <img src="<?php echo base_url() ?>assets/images/services/icon-seo.png">
             <h3 class="media-heading">Marketing Digital</h3>
             <p>
-              Criação e consultoria de campanhas de marketing digital com SEO, E-mail marketing,
-              Google Adwords, Criação de conteúdos e Gerenciamento de Redes Sociais.
+              SEO
+              E-mail marketing
+              Google Adwords
+              Criação de conteúdos
+              Gerenciamento de Redes Sociais
             </p>
             <a class="preview" target="_blank" href="<?php echo base_url() ?>"><button class="btn btn-primary btn-lg">Saiba mais</button></a>
           </div>
@@ -40,8 +54,14 @@
             <img src="<?php echo base_url() ?>assets/images/services/icon-virtual-shop.png">
             <h3 class="media-heading">Suporte e Hospedagem</h3>
             <p>
-              Planos para Suporte e Hospedagem de sites, Atualização de Sistemas, plugins e componentes.
-              Nossos servidores contam com segurança contra vírus além de Backup sistemático de conteúdo.
+              Hospedagem de sites,
+              Suporte Corretivo
+              Atualização de Sistemas
+              Atualização de plugins e componentes
+              Desinfecção e segurança contra vírus
+              Backup sistemático de conteúdo
+              Manutenção de conteúdos
+              Correção de erros de sistema
             </p>
             <a class="preview" target="_blank" href="<?php echo base_url() ?>"><button class="btn btn-primary btn-lg">Saiba mais</button></a>
           </div>
@@ -55,8 +75,8 @@
             <img src="<?php echo base_url() ?>assets/images/services/icon-web.png">
             <h3 class="media-heading">Design, logo e papelaria</h3>
             <p>
-              Criação de identidade visual da sua empresa e toda comunicação visual com
-              logo, cartões de visita, folders, banners para site e redes sociais.
+              Criação de logos, marcas e identidade visual
+              Cartões de visita, folders, banners
             </p>
             <a class="preview" target="_blank" href="<?php echo base_url() ?>"><button class="btn btn-primary btn-lg">Saiba mais</button></a>
           </div>
@@ -67,10 +87,7 @@
           <div class="media-body">
             <img src="<?php echo base_url() ?>assets/images/services/icon-seo.png">
             <h3 class="media-heading">Tour 360º</h3>
-            <p>
-              Proporciene a seus clientes a possibilidade de fazer uma passeios virtual pela sua empresa
-              através do Google Maps. Realizado por profissional de confiança certificado pela Google.
-            </p>
+            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
             <a class="preview" target="_blank" href="<?php echo base_url() ?>"><button class="btn btn-primary btn-lg">Saiba mais</button></a>
           </div>
         </div>
@@ -80,10 +97,7 @@
           <div class="media-body">
             <img src="<?php echo base_url() ?>assets/images/services/icon-virtual-shop.png">
             <h3 class="media-heading">Consultoria e Treinamento</h3>
-            <p>
-              Nossa equipe pode lhe auxiliar a descobrir as melhores tecnologias e ferramentas para
-              otimizar seu negócio. Treinamentos e cursos também são oferecidos.
-            </p>
+            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
             <a class="preview" target="_blank" href="<?php echo base_url() ?>"><button class="btn btn-primary btn-lg">Saiba mais</button></a>
           </div>
         </div>

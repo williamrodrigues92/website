@@ -8,7 +8,7 @@
   <meta name="keywords" content="<?php echo $metatags['keywords'] ?>"/>
   <meta name="description" content="<?php echo $metatags['description'] ?>"/>
 
-  <link rel="shortcut icon" href="<?php echo base_url() ?>assets/images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" type="image/png" href="<?php echo base_url() ?>assets/images/favicon.png"/>
   <link rel="canonical" href="<?php echo $this->config->item('canonical'); ?>" />
 
   <title><?php echo $title.' - '.$this->config->item('projeto') ?></title>
