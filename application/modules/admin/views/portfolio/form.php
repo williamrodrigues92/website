@@ -36,6 +36,13 @@
 
 		<div class="row form-group">
 			<div class="col-md-12">
+				<label>Link</label>
+				<input name="link" class="form-control" id="link" value="<?php echo $row['link'] ?>">
+			</div>
+		</div>
+
+		<div class="row form-group">
+			<div class="col-md-12">
 				<label>Imagem</label>
 				<input name="imagem" type="file" class="form-control file" id="imagem">
 			</div>

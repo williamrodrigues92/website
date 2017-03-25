@@ -8,7 +8,7 @@
   <?php } ?>
 
   <link rel="canonical" href="<?php echo $canonical ?>" />
-  <link rel="shortcut icon" href="<?php echo base_url() ?>favicon.ico" >
+  <link rel="shortcut icon" type="image/png" href="<?php echo base_url() ?>assets/images/favicon.png"/>
 
   <title><?php echo $title . ' - ' . $this->config->item('projeto') ?></title>
 

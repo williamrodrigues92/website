@@ -36,18 +36,18 @@ class Portfolio extends MY_Controller {
         if ( isset($_FILES['imagem']) ) {
 
           $filename = time();
-          $foo = new Upload($_FILES['imagem']);
+          $img = new Upload($_FILES['imagem']);
 
-          if ( $foo->uploaded && $foo->file_is_image ) {
+          if ( $img->uploaded && $img->file_is_image ) {
 
             $dirname = './uploads/portfolio/';
 
-            $foo->file_new_name_body = $filename;
-            $foo->image_convert      = "jpg";
+            $img->file_new_name_body = $filename;
+            $img->image_convert      = "jpg";
 
-            $foo->Process($dirname);
+            $img->Process($dirname);
 
-            if ( $foo->processed ) {
+            if ( $img->processed ) {
               $data['imagem'] = $filename . '.jpg';
             }
           }

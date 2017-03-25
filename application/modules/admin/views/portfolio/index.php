@@ -25,6 +25,7 @@
 						<tr>
 							<th class="col-md-1">#</th>
 							<th>Título</th>
+							<th>Link</th>
 							<th class="col-md-1 text-center nosort">Ações</th>
 						</tr>
 					</thead>
@@ -34,6 +35,7 @@
 								<tr>
 									<td><?php echo $row->id ?></td>
 									<td><?php echo $row->titulo ?></td>
+									<td><?php echo $row->link ?></td>
 		              <td class="text-center">
 		                <a href="<?php echo base_url() ?>admin/portfolio/form/<?php echo $row->id ?>" class="edit" title="Editar"><i class="fa fa-fw fa-pencil"></i></a>
 		                <a href="<?php echo base_url() ?>admin/portfolio/remover/<?php echo $row->id ?>" class="remove" title="Remover"><i class="fa fa-fw fa-trash"></i></a>
