@@ -2,3 +2,37 @@ input[type="file"] {
   display: block;
   padding-bottom: 40px;
 }
+
+.login-panel {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 20px;
+  border-radius: 0px;
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  width: 300px;
+}
+
+.login-panel input {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border: 1px solid #dedede;
+  border-radius: 0;
+  padding: 10px 15px;
+  height: 40px;
+}
+
+#logo {
+  text-align: center;
+  background-color: transparent;
+  margin-bottom: 15px;
+  padding-bottom: 25px;
+}
+
+#logo img {
+  max-width: 80%;
+}
