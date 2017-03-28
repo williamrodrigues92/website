@@ -158,7 +158,7 @@
 /**********************   TOPO   **************************/
 
   #fundo-topo {
-    background-image: url(/fito/website/assets/images/fundo_topo.jpg);
+    background-image: url(http://fitosistemas.com.br/assets/images/fundo_topo.jpg);
     height: 300px;
     background-repeat: no-repeat;
     background-position: center;
@@ -396,7 +396,7 @@
   /************   ESTATÍSTICAS   **********/
     #statistics {
       background-color: #0f4958;
-      background-image: url(/fito/website/assets/images/fundo_logo.png);
+      background-image: url(http://fitosistemas.com.br/assets/images/fundo_logo.png);
       background-position: center;
       background-repeat: no-repeat;
       color: #fff;

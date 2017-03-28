@@ -60,33 +60,11 @@
           <div class="item active">
             <div class="partner-logo">
               <ul>
-                <li> <a href="#"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/partners/logo-derhaus.jpg"></a></li>
-                <li> <a href="#"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/partners/logo-ariaciclo.jpg"></a></li>
-                <li> <a href="#"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/partners/logo-tokenac.jpg"></a></li>
-                <li> <a href="#"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/partners/logo-furtadoleite.jpg"></a></li>
-                <li> <a href="#"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/partners/logo-phperin.jpg"></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="item">
-            <div class="partner-logo">
-              <ul>
-                <li> <a href="#"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/partners/logo-derhaus.jpg"></a></li>
-                <li> <a href="#"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/partners/logo-ariaciclo.jpg"></a></li>
-                <li> <a href="#"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/partners/logo-tokenac.jpg"></a></li>
-                <li> <a href="#"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/partners/logo-furtadoleite.jpg"></a></li>
-                <li> <a href="#"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/partners/logo-phperin.jpg"></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="item">
-            <div class="partner-logo">
-              <ul>
-                <li> <a href="#"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/partners/logo-derhaus.jpg"></a></li>
-                <li> <a href="#"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/partners/logo-ariaciclo.jpg"></a></li>
-                <li> <a href="#"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/partners/logo-tokenac.jpg"></a></li>
-                <li> <a href="#"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/partners/logo-furtadoleite.jpg"></a></li>
-                <li> <a href="#"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/partners/logo-phperin.jpg"></a></li>
+                <li> <a href="http://derhaus.com.br/"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/partners/logo-derhaus.jpg"></a></li>
+                <li> <a href="http://ariaciclo.com/"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/partners/logo-ariaciclo.jpg"></a></li>
+                <li> <a href="http://token.ac/"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/partners/logo-tokenac.jpg"></a></li>
+                <li> <a href="http://furtadoleite.com.br/"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/partners/logo-furtadoleite.jpg"></a></li>
+                <li> <a href="http://phperin.com/"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/partners/logo-phperin.jpg"></a></li>
               </ul>
             </div>
           </div>
@@ -99,7 +77,7 @@
 <footer id="footer">
   <div class="container">
     <div class="col-md-7 col-sm-7 col-xs-12">
-      <a href="#"><img src="<?php echo base_url() ?>assets/images/logo.png" alt="logo"></a>
+      <a href="<?php echo base_url() ?>"><img src="<?php echo base_url() ?>assets/images/logo.png" alt="logo"></a>
     </div>
     <div class="col-md-5 col-sm-5 col-xs-12 email">
       <p>+55 48 99670.5643</p>
@@ -107,8 +85,8 @@
     </div>
   </div>
   <div id="copyright">
-    <div class="container center">
-      © Copytight 2017. Fito Sistemas.
+    <div class="container">
+      <p align="center">© Copyright 2017. Fito Sistemas.</p>
     </div>
   </div>
 </footer>

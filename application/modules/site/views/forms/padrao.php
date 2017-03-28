@@ -23,7 +23,7 @@
 	<div id="fundo">
 		<div id="cabecalho">
 			<h1><?php echo $this->config->item('projeto') ?></h1>
-			<h2 style="color:#000;"><?php echo $campos['titulo'] ?></h2>
+			<h2 style="color:#000;"><?php echo $campos['assunto'] ?></h2>
 			<p style="color:#000;"><strong>Data:</strong> <?php echo date('d/m/Y') ?> e <strong>Hora:</strong> <?php echo date('H:i:s') ?> do cadastro.</p>
 
 		</div>
@@ -34,7 +34,7 @@
 	<div id="content">
 		<?php
 		foreach ($campos as $key => $value) {
-			if($key != 'titulo' && $key != 'pagina' && $key != 'enviar') {
+			if($key != 'assunto' && $key != 'pagina' && $key != 'enviar') {
                 $key = str_replace('_', ' ', $key);
 				echo '<div class="campo"><strong>'.ucfirst($key).' : </strong></div><div class="valor">'.$value.'</div>';
 			}

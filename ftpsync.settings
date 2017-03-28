@@ -7,7 +7,7 @@
 		"host": "fitosistemas.com.br",
 		"username": "fitos962",  // or null for anonymous login
 		"password": "t58u9hf0JN",
-		"path": "/public_html/2017",
+		"path": "/public_html/",
 
 		"upload_on_save": true, // set *false* if you do not want to upload on save!
 		"download_on_open": true,

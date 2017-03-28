@@ -40,6 +40,7 @@ class Site extends MY_Controller {
     $this->inserirSEO('Portfólio', '', '', 'portfolio');
 
     $this->data['projeto'] = $this->portfolio_model->get($id);
+    $this->data['galeria'] = $this->fotos_model->getFotosById($this->data['projeto']->id_galeria);
 
     $this->exibirPaginaSite('pages/portfolio_exibir');
   }

@@ -12,7 +12,7 @@
             <div class="col-xs-12 col-sm-12 blog-content">
               <?php echo $projeto->chamada ?>
               <?php echo $projeto->descricao ?>
-              <a href="<?php echo $projeto->link ?>"><h2>Visite o site</h2></a>
+              <a href="<?php echo $projeto->link ?>" target="_blank"><h2>Visite o site</h2></a>
             </div>
           </div>
           <div class="row">
